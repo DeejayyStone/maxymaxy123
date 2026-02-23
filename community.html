@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS Ghana Compass - Community</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation (same as before) -->
+    <nav class="navbar glass-morphism">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-laptop-code"></i>
+                <span>CS Ghana Compass</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="community.html" class="active">Community</a></li>
+            </ul>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Community Hero -->
+    <section class="community-hero">
+        <div class="container">
+            <h1 class="gradient-text">Connect, Learn, Grow Together</h1>
+            <p>Join 5000+ CS students from across Ghana</p>
+            <div class="community-stats">
+                <div class="stat">
+                    <i class="fas fa-users"></i>
+                    <span id="active-members">5,234</span>
+                    <p>Active Members</p>
+                </div>
+                <div class="stat">
+                    <i class="fas fa-comments"></i>
+                    <span id="daily-posts">127</span>
+                    <p>Daily Discussions</p>
+                </div>
+                <div class="stat">
+                    <i class="fas fa-handshake"></i>
+                    <span id="mentors">45</span>
+                    <p>Mentors</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join Community Section -->
+    <section class="join-community">
+        <div class="container">
+            <div class="join-cards">
+                <div class="join-card whatsapp pulse">
+                    <i class="fab fa-whatsapp"></i>
+                    <h3>WhatsApp Group</h3>
+                    <p>Instant discussions, daily updates, study groups</p>
+                    <a href="#" class="btn btn-primary">Join Group</a>
+                </div>
+                <div class="join-card telegram">
+                    <i class="fab fa-telegram"></i>
+                    <h3>Telegram Channel</h3>
+                    <p>Opportunities alerts, resources, announcements</p>
+                    <a href="#" class="btn btn-primary">Join Channel</a>
+                </div>
+                <div class="join-card discord">
+                    <i class="fab fa-discord"></i>
+                    <h3>Discord Server</h3>
+                    <p>Voice chats, coding sessions, mentorship</p>
+                    <a href="#" class="btn btn-primary">Join Server</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Student Spotlights -->
+    <section class="spotlights">
+        <div class="container">
+            <h2 class="section-title">Student <span class="gradient-text">Spotlights</span></h2>
+            <div class="spotlight-slider">
+                <div class="spotlight-card">
+                    <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Student">
+                    <h3>Efua Dadzie</h3>
+                    <p class="university">University of Ghana, Class of 2023</p>
+                    <p class="achievement">Now: Software Engineer @ Hubtel</p>
+                    <div class="advice">
+                        <i class="fas fa-quote-right"></i>
+                        <p>"Focus on Python and JavaScript. Join study groups early!"</p>
+                    </div>
+                </div>
+                <!-- More spotlight cards -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Discussion Forum Preview -->
+    <section class="forum-preview">
+        <div class="container">
+            <h2 class="section-title">Recent <span class="gradient-text">Discussions</span></h2>
+            <div class="forum-posts" id="forum-posts">
+                <!-- Posts loaded from database -->
+            </div>
+            <div class="text-center">
+                <a href="#" class="btn btn-secondary">View All Discussions</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mentorship Section -->
+    <section class="mentorship">
+        <div class="container">
+            <h2 class="section-title">Find a <span class="gradient-text">Mentor</span></h2>
+            <div class="mentor-grid">
+                <div class="mentor-card">
+                    <img src="https://randomuser.me/api/portraits/men/52.jpg" alt="Mentor">
+                    <h4>Dr. Kofi Annan</h4>
+                    <p>Senior Lecturer, KNUST</p>
+                    <div class="mentor-tags">
+                        <span>AI/ML</span>
+                        <span>Research</span>
+                    </div>
+                    <button class="btn-small">Request Mentorship</button>
+                </div>
+                <!-- More mentors -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (same as before) -->
+    <footer class="footer">
+        <!-- Same footer content -->
+    </footer>
+
+    <script src="js/database.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

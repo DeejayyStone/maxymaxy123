@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS Ghana Compass - Resources</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation (same as index.html) -->
+    <nav class="navbar glass-morphism">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-laptop-code"></i>
+                <span>CS Ghana Compass</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resources.html" class="active">Resources</a></li>
+                <li><a href="community.html">Community</a></li>
+            </ul>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="gradient-text">Resources & Opportunities</h1>
+            <p>Everything you need to succeed in your CS journey, tailored for Ghana</p>
+        </div>
+    </section>
+
+    <!-- Resource Filter Tabs -->
+    <section class="resource-filters">
+        <div class="container">
+            <div class="filter-tabs">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="learning">Learning</button>
+                <button class="filter-btn" data-filter="internship">Internships</button>
+                <button class="filter-btn" data-filter="scholarship">Scholarships</button>
+                <button class="filter-btn" data-filter="tool">Tools</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Materials Section -->
+    <section id="learning" class="resource-section">
+        <div class="container">
+            <h2 class="section-title">📚 <span class="gradient-text">Data-Smart Learning</span></h2>
+            <div class="resource-grid">
+                <div class="resource-card hover-lift" data-category="learning">
+                    <div class="resource-badge">Free</div>
+                    <i class="fas fa-wifi-slash resource-icon"></i>
+                    <h3>Offline Wikipedia</h3>
+                    <p>Access Wikipedia without internet. Download for free.</p>
+                    <ul class="resource-features">
+                        <li><i class="fas fa-check"></i> 50GB compressed</li>
+                        <li><i class="fas fa-check"></i> Works without data</li>
+                    </ul>
+                    <div class="resource-footer">
+                        <span class="data-tip"><i class="fas fa-sim-card"></i> Save data</span>
+                        <a href="#" class="btn-small">Download Guide</a>
+                    </div>
+                </div>
+                <div class="resource-card hover-lift" data-category="learning">
+                    <div class="resource-badge">Popular</div>
+                    <i class="fab fa-free-code-camp resource-icon"></i>
+                    <h3>freeCodeCamp</h3>
+                    <p>Interactive coding lessons - works well on mobile data</p>
+                    <ul class="resource-features">
+                        <li><i class="fas fa-check"></i> 2000+ hours</li>
+                        <li><i class="fas fa-check"></i> Certificates</li>
+                    </ul>
+                    <div class="resource-footer">
+                        <span class="data-tip"><i class="fas fa-tachometer-alt"></i> 50MB/hour</span>
+                        <a href="#" class="btn-small">Start Learning</a>
+                    </div>
+                </div>
+                <div class="resource-card hover-lift" data-category="learning">
+                    <i class="fab fa-youtube resource-icon"></i>
+                    <h3>CS50 Lectures</h3>
+                    <p>Harvard's CS course - download for offline viewing</p>
+                    <ul class="resource-features">
+                        <li><i class="fas fa-check"></i> Downloadable</li>
+                        <li><i class="fas fa-check"></i> Subtitles included</li>
+                    </ul>
+                    <div class="resource-footer">
+                        <span class="data-tip"><i class="fas fa-download"></i> 2GB total</span>
+                        <a href="#" class="btn-small">Get Link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Internships Section -->
+    <section id="internships" class="resource-section bg-light">
+        <div class="container">
+            <h2 class="section-title">💼 <span class="gradient-text">Internships in Ghana</span></h2>
+            <div class="internship-list" id="internships-list">
+                <!-- Will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Scholarships Section -->
+    <section id="scholarships" class="resource-section">
+        <div class="container">
+            <h2 class="section-title">🎓 <span class="gradient-text">Scholarships</span></h2>
+            <div class="scholarship-grid">
+                <!-- Scholarship cards -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (same as index.html) -->
+    <footer class="footer">
+        <!-- Same footer content -->
+    </footer>
+
+    <script src="js/database.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
